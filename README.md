@@ -15,16 +15,10 @@ I ran this on MacOS High Sierra 10.13.6, with Docker version 2.1.0.5.
 3. Open terminal and go to directory containing the **docker-compose.yml**
 4. Run `docker-compose up`
 
-![](https://raw.githubusercontent.com/martinsberents/docker_php7_nginx_mysql/master/assets/docker-compose-up.png)
-
 **N.B.** On the first run it will download all the necessary Docker images and because we have a bit modified php image, it will install the _pdo_mysql_ extension. If everything goes right, container for each of the service will be created.
-
-![](https://raw.githubusercontent.com/martinsberents/docker_php7_nginx_mysql/master/assets/docker-compose-up-done.png)
 
 5. In browser, open http://localhost:8080 . You should see the output of `phpinfo()`
 6. Run `docker-compose down` to stop (and remove) the containers
-
-![](https://raw.githubusercontent.com/martinsberents/docker_php7_nginx_mysql/master/assets/docker-compose-down.png)
 
 **NOTES**
 --
