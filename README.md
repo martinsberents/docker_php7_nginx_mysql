@@ -27,6 +27,8 @@ For nginx to be able to communicate with fpm, I have created a basic nginx confi
 ```
 fastcgi_pass php:9000;
 ``` 
-
+---
+To connect to mysql container use the command: `docker exec -it mysql bash`.
+And within the container, to connect to the mysql server itself use: `mysql -uroot -proot`
 
 
