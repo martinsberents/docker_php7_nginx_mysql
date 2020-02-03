@@ -26,9 +26,7 @@ For nginx to be able to communicate with fpm, I have created a basic nginx confi
 
 ```
 fastcgi_pass php:9000;
-```
-___
-And to allow authentication on mysql server with passwords, I added a config file that sets the default authentication plugin to _mysql_native_password_ 
+``` 
 
 
 
